@@ -1,0 +1,58 @@
+/* src/pages/HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00a6d39f;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 200px;
+    color: #220c85a7;
+  }
+  
+  .upload-container {
+    margin-bottom: 30px;
+  }
+  
+  .image-preview img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendations-container {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .recommendations-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recommendations-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendations-container li img {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .recommendations-container li span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }  
