@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import ImageUpload from '../components/ImageUpload';
 import Recommendations from './components/Recommendations';
 import { getRecommendation } from './components/recommendServices';
-import './HomePage.css';
+import './Homepage.css';
 
 const HomePage = () => {
   const [recommendations, setRecommendations] = useState([]);
